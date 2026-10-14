@@ -10,7 +10,7 @@ import { Sidebar } from './components/Sidebar';
 import { ToastContainer } from './components/ToastContainer';
 import { AuthModal } from './components/AuthModal';
 import { ReportSummaryModal } from './components/ReportSummaryModal';
-import { LandingPage } from './components/LandingPage';
+import { LandingPage } from './components/views/LandingPage';
 import { OverviewView } from './components/views/OverviewView';
 import { UploadStudioView } from './components/views/UploadStudioView';
 import { DocumentsView } from './components/views/DocumentsView';

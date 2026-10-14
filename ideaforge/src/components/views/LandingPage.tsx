@@ -1,5 +1,5 @@
 import React from 'react';
-import { useHealth } from '../context/HealthContext';
+import { useHealth } from '../../context/HealthContext';
 import {
   FileText,
   Clock,
@@ -18,8 +18,8 @@ import {
   AlertCircle,
   Eye,
 } from 'lucide-react';
-import { ThreeDHealthSphere } from './ThreeDHealthSphere';
-import { HealthSphereLogoIcon } from './HealthSphereLogoIcon';
+import { ThreeDHealthSphere } from '../ThreeDHealthSphere';
+import { HealthSphereLogoIcon } from '../HealthSphereLogoIcon';
 
 export const LandingPage: React.FC = () => {
   const { t, setIsAuthModalOpen, loginAsDemo } = useHealth();

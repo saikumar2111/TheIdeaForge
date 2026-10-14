@@ -1,11 +1,13 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
+import os from 'node:os';
 import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
+    cacheDir: path.join(process.env.LOCALAPPDATA ?? os.tmpdir(), 'HealthSphere', 'vite-cache'),
     resolve: {
       alias: {
         '@': path.resolve(import.meta.dirname, '.'),

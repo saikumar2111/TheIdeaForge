@@ -1,0 +1,8 @@
+{
+  "name": "HealthSphere AI — Personal Health Copilot",
+  "description": "Intelligent medical document analysis, prescription organization, multilingual plain-language summaries, and FHIR-aligned health timeline.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
